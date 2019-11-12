@@ -1,1 +1,12 @@
 04/11/2019, we began with the unit 2 project and it is about communication, we have kin of limited sources and we need to achieve a goal, I really like the new chalenge and I will do my best to complete this program even though is kind of far of my comfort zone  
+
+Evaluate/compare between Bash and Arduino
+A: In the first mounths at ISAK we learned how to use Bash and I am used to using it but now Arduinpo has been introduced to us, even though I do not know much about it I think that Arduino is easier then Bash, when we are checking the program in Arduino we just need the press one "button" and will check faster, by itself and will tell you exactly what is missing as well
+on the other hand in bash we need to save the program first then see if it is working, if is not working the terminal will only show you the line that is wrong and do not give more specific details than Arduino, so to check if a program is working we take more time in bash than Arduino. In Arduino the algorithms are more precise and this altready has basic data like loop and funtions.
+Some bad things about Arduino are that there are a lot of varioble types, the variables are more complicated and less intuitive than Bash one good think about bash is that it is connect to terminal and file system,
+Even though Arduino have a lot of variable types, in arduino teh sintex is clear and specific and we have a precise explanion about this variables. 
+
+11/11/19, today was the second day about our unit 2 project, I get more knowledge about Arduino and we do the traffic light with the codes in the arduino connecting the data on Arduino inside my computer to the physical Arduino Uno R3 for my was fantastic feeling that I done it, I really do not feel comfortable yet with this all new stuff but as soon as posible I will get all of this, Arduino and Tinkercad and I hpe I will do I great unit 2 project.
+
+the VOID keybord is used only in function declarations it indicates that the funtion is expected to return no information to the function from which it was called;
+INT integers are your primary data-types for number storage. 
