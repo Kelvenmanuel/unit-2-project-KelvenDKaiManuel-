@@ -10,3 +10,5 @@ Even though Arduino have a lot of variable types, in arduino teh sintex is clear
 
 the VOID keybord is used only in function declarations it indicates that the funtion is expected to return no information to the function from which it was called;
 INT integers are your primary data-types for number storage. 
+
+13/11/19 Today we use Arduino and we create a binary sequence for traffic lights, Even though was not the point I learned how to make the light blink and I am getting more knowledge about Arduino. 
