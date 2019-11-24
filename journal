@@ -12,3 +12,11 @@ the VOID keybord is used only in function declarations it indicates that the fun
 INT integers are your primary data-types for number storage. 
 
 13/11/19 Today we use Arduino and we create a binary sequence for traffic lights, Even though was not the point I learned how to make the light blink and I am getting more knowledge about Arduino. 
+
+19/11/19 Today we did some binary to decimal conversion exercises and vice versa, I got more knowledge about what we will do in the next classes, I learned how the bases work, I have some doubts about the programming I'm still not confident about it, the teacher introduced us OR AND NOT and XOR and we start the process of making the circuits with their symbols
+
+20/11/19 today we texted about the new codes and graphics we made where we had to draw the table, the equation and we had a question where we had to use knowledge throughout the classes to think like a computer
+
+21/11/19 Today we continue to make the circuits with the respective tables and start working with the lights translating them into numbers, first we take the table, where we could see if to form a number which lamps would have to be turned on, after that we took the equations that later we would have to translate into Arduino codes
+
+22/11/19 today we We continued the process of 7 lights where we had to put the codes in Arduino and build the system with Arduino, today I managed to remove some of the doubts that I had presented in previous classes and managed to overcome some weaknesses
