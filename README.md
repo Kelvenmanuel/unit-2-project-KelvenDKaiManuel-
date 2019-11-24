@@ -77,6 +77,5 @@ Contents
 ![Arduino](luz2.jpg)
 ![Arduino](luz3.jpg)
 
-![Arduino](ARD5.jpg)
 ![Arduino](ARD3.jpg)
 
