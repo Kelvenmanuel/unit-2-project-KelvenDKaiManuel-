@@ -1,10 +1,76 @@
 # •Communication• Morse code and Binary code UNIT2 Project
+==========================================================
 # KelvenManuel 
 
 ![Communication](jaesta.jpg)
 
+Communication between the Earth the moon and Mars using Arduino 
+
+Contents
+---------
+  1. [planning](#Planning)
+  2. [Design](#Design)
+  3. [Development](#Development)
+  4. [Evaluation](#Evaluation)
+  
+ 1.Planning 
+ -------------
+ 
+ ### Definition of the Problem 
+ In 2050, we want to explore other planets, on the other hand, the communication is still uncertain. We have 3 station one in the Earth that can only communicate using Morse code, the second station in the Moon can only communicate in Binary and the final station in Mars that we must provide a channel of communication. 
+ 
+ ### Proposed Solution 
+ 
+ ### success criteria
+ 
+ • Communication between the 2 station Earth and Mars using Morse code; 
+ • Communication between Mars and the Moon uses Binary code;
+ • find a communication system that allow stations to communicate completely using English 
+ • Keyboard input on each station is limited to 2push buttons. 
+ • 100W lights are buzzers are available 
+ 
+ 
+ 2.Desing
+ ----------
+ ![Arduino](luz.jpg)
+ 
+ ![Arduino](ARD5.jpg)
+ 
+ 3.Development 
+ --------------
+ ```
+ count base 8 binary    count base 4 binary       desimal 15 to Binary 
+ 
+  n%8                    n%4                      num  A   B C D 
+  
+   0                      0                        0    0    0    0    0
+   1                      1                        1    0    0    0    1
+   2                      2                        2    0    0    1    0
+   3                      3                        3    0    0    1    1 
+   4                      0                        4    0    1    0    0
+   5                      1                        5    0    1    0    1 
+   6                      2                        6    0    1    1    0
+   7                      3                        7    0    1    1    1
+   0                      0                        8    1    0    0    0 
+   1                      1                        9    1    0    0    1
+   2                      2                        10   1    0    1    0 
+   3                      3                        11   1    0    1    1 
+   4                      0                        12   1    1    0    0
+   5                      1                        13   1    1    0    1
+   6                      2                        14   1    1    1    0 
+   7                      3                        15   1    1    1    1 
+   
+                                                       bit  bit  bit  bit 
+                                                        3    2    1    0 
+```
+   
+ 4.Evaluation 
+ --------------
+ 
+ 
+ 
 ### 
-![Arduino](luz.jpg)
+
 ![Arduino](luz1.jpg)
 ![Arduino](luz2.jpg)
 ![Arduino](luz3.jpg)
