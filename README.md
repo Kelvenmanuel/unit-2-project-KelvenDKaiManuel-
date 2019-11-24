@@ -38,10 +38,12 @@ Contents
  
  3.Development 
  --------------
+ 
+ # First steps about Binary code ( binary to decimal conversion ) 
  ```
  count base 8 binary    count base 4 binary       desimal 15 to Binary 
  
-  n%8                    n%4                      num  A   B C D 
+  n%8                    n%4                      num   A    B    C    D 
   
    0                      0                        0    0    0    0    0
    1                      1                        1    0    0    0    1
@@ -77,4 +79,4 @@ Contents
 
 ![Arduino](ARD5.jpg)
 ![Arduino](ARD3.jpg)
-![Arduino](ARD4.jpg)
+
