@@ -65,6 +65,13 @@ Contents
                                                        bit  bit  bit  bit 
                                                         3    2    1    0 
 ```
+What is Usability?
+A: Usability is the part of the user experience[1], process of designing a product with the user in mind[2]. Degree of earse that a product can be used to attain the proposed goal. 
+
+### Principles of desgn 
+• Discoverability
+• Feedback 
+[3] Posner J, Mars R. " It is not you. Bad doors are everywhere". 2016.Retrieved on 25th nov 19.
    
  4.Evaluation 
  --------------
