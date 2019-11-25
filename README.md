@@ -71,6 +71,8 @@ A: Usability is the part of the user experience[1], process of designing a produ
 ### Principles of desgn 
 • Discoverability
 • Feedback 
+
+
 [3] Posner J, Mars R. " It is not you. Bad doors are everywhere". 2016.Retrieved on 25th nov 19.
    
  4.Evaluation 
