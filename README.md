@@ -41,8 +41,8 @@ Contents
 ![Arduino](ARD3.jpg)
 
 # Using Arduino,coding and lights to build a segment display 
-![Arduino](lights1)
-![Arduino](lights2)
+![Arduino](lights1.jpeg)
+![Arduino](lights2.jpeg)
  
  3.Development 
  --------------
