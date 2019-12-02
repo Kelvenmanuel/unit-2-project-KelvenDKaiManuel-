@@ -17,7 +17,7 @@ Contents
  -------------
  
  ### Definition of the Problem 
- In 2050, we want to explore other planets, on the other hand, the communication is still uncertain. We have 3 station one in the Earth that can only communicate using Morse code, the second station in the Moon can only communicate in Binary and the final station in Mars that we must provide a channel of communication. 
+ In 2050, The company Explore wants to explore other planets, on the other hand, the communication nowadays still uncertain. they have 3 station one in the Earth that can only communicate using Morse code, the second station in the Moon can only communicate in Binary and the final station in Mars that they need us to provide a channel of communication. 
  
  ### Proposed Solution 
  
@@ -32,9 +32,17 @@ Contents
  
  2.Desing
  ----------
- ![Arduino](luz.jpg)
- 
- ![Arduino](ARD5.jpg)
+# Traffic lights system 
+![Arduino](luz1.jpg)
+![Arduino](luz2.jpg)
+![Arduino](luz3.jpg)
+
+# cabes system using Arduino to turn on the light 
+![Arduino](ARD3.jpg)
+
+# Using Arduino,coding and lights to build a segment display 
+![Arduino](lights1)
+![Arduino](lights2)
  
  3.Development 
  --------------
@@ -82,9 +90,4 @@ A: Usability is the part of the user experience[1], process of designing a produ
  
 ### 
 
-![Arduino](luz1.jpg)
-![Arduino](luz2.jpg)
-![Arduino](luz3.jpg)
-
-![Arduino](ARD3.jpg)
 
