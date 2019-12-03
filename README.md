@@ -13,6 +13,7 @@ Contents
   3. [Development](#Development)
   4. [Evaluation](#Evaluation)
   
+  
  1.Planning 
  -------------
  
@@ -32,10 +33,12 @@ Contents
  
  2.Desing
  ----------
-# Traffic lights system 
+# Traffic lights system using Arduino 
 ![Arduino](luz1.jpg)
 ![Arduino](luz2.jpg)
 ![Arduino](luz3.jpg)
+# fig. 
+Introduction of Arduino-using arduino to make a system of traffic lights help us to understand how Arduino works. 
 
 ```.sh
 void setup()
@@ -65,7 +68,7 @@ void loop()
 
 # cabes system using Arduino to turn on the light 
 ![Arduino](ARD3.jpg)
-
+# Fig.2
 ```.sh
  int ledPin[] = {13,12,11,10,9,8};
 // an arry to define the pins
@@ -107,9 +110,11 @@ void displayBinary(byte num)
 
 
 
+
 # Using Arduino,coding and lights to build a segment display 
 ![Arduino](lights1.jpeg)
 ![Arduino](lights2.jpeg)
+# fig.3 
 
 ```.sh 
 int butA = 13;
@@ -198,8 +203,20 @@ void loop()
                                                        bit  bit  bit  bit 
                                                         3    2    1    0 
 ```
-What is Usability?
-A: Usability is the part of the user experience[1], process of designing a product with the user in mind[2]. Degree of earse that a product can be used to attain the proposed goal. 
+
+
+# Boolean Operators, Logit gates and truth tables 
+![Arduino](arduino123.jp)
+# Fig. 4 
+we can see the essensial Boolean operations ( logic gates ) and their match in basic arithmetic operations. [right side ]
+
+Addictionaly we can see the truth tables for the basic Boolean operation( OR AND NOT XOR ) [left side ]
+
+
+### Understanding Boolean operations 
+
+# What is Usability?
+A: Usability is the ease of use learnability of a human-made object.[1]
 
 ### Principles of desgn 
 • Discoverability
@@ -213,6 +230,7 @@ A: Usability is the part of the user experience[1], process of designing a produ
  
  
  
-### 
+### References 
+[1] By: https://ib.compscihub.net/wp-content/uploads/2018/06/1.2.12.pdf
 
 
