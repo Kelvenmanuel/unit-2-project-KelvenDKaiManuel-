@@ -116,6 +116,14 @@ void displayBinary(byte num)
 ![Arduino](lights1.jpeg)
 ![Arduino](lights2.jpeg)
 Using more arduino, we acquire knowledge that will be fundamental to achieve our goal
+ 
+ 3.Development 
+ --------------
+ 
+ # Using Arduino,coding and lights to build a segment display 
+![Arduino](lights1.jpeg)
+![Arduino](lights2.jpeg)
+Using more arduino, we acquire knowledge that will be fundamental to achieve our goal
 
 
 ```.sh 
@@ -174,10 +182,6 @@ void loop()
   
 }
 ```
-
- 
- 3.Development 
- --------------
  
  # First steps about Binary code ( binary to decimal conversion ) 
  ```.sh 
@@ -205,6 +209,8 @@ void loop()
                                                        bit  bit  bit  bit 
                                                         3    2    1    0 
 ```
+# conversion of base 2 to 10
+# conversion of base 10 to other bases 
 
 # The HEXADECIMAL base 
 this base is different from other, the numbers 10 to 15 are expressed using only digits, instead of using digits. 
