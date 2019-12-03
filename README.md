@@ -24,11 +24,13 @@ Contents
  
  ### success criteria
  
+ • Clear understanding about Arduino, Binary codes, and morse codes
  • Communication between the 2 station Earth and Mars using Morse code; 
  • Communication between Mars and the Moon uses Binary code;
  • find a communication system that allow stations to communicate completely using English 
  • Keyboard input on each station is limited to 2push buttons. 
  • 100W lights are buzzers are available 
+ 
  
  
  2.Desing
@@ -37,7 +39,6 @@ Contents
 ![Arduino](luz1.jpg)
 ![Arduino](luz2.jpg)
 ![Arduino](luz3.jpg)
-# fig. 
 Introduction of Arduino-using arduino to make a system of traffic lights help us to understand how Arduino works. 
 
 ```.sh
@@ -68,7 +69,7 @@ void loop()
 
 # cabes system using Arduino to turn on the light 
 ![Arduino](ARD3.jpg)
-# Fig.2
+
 ```.sh
  int ledPin[] = {13,12,11,10,9,8};
 // an arry to define the pins
@@ -114,7 +115,8 @@ void displayBinary(byte num)
 # Using Arduino,coding and lights to build a segment display 
 ![Arduino](lights1.jpeg)
 ![Arduino](lights2.jpeg)
-# fig.3 
+Using more arduino, we acquire knowledge that will be fundamental to achieve our goal
+
 
 ```.sh 
 int butA = 13;
@@ -203,11 +205,15 @@ void loop()
                                                        bit  bit  bit  bit 
                                                         3    2    1    0 
 ```
+# The HEXADECIMAL base 
+this base is different from other, the numbers 10 to 15 are expressed using only digits, instead of using digits. 
+Eg: A=10 B=11 C=12 D=13 E=14 F=15 
 
+ 
 
 # Boolean Operators, Logit gates and truth tables 
-![Arduino](arduino123.jp)
-# Fig. 4 
+![Arduino](arduino123.jp.jpeg)
+ 
 we can see the essensial Boolean operations ( logic gates ) and their match in basic arithmetic operations. [right side ]
 
 Addictionaly we can see the truth tables for the basic Boolean operation( OR AND NOT XOR ) [left side ]
