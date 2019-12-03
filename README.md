@@ -107,15 +107,6 @@ void displayBinary(byte num)
 
 }
 ```
-
-
-
-
-
-# Using Arduino,coding and lights to build a segment display 
-![Arduino](lights1.jpeg)
-![Arduino](lights2.jpeg)
-Using more arduino, we acquire knowledge that will be fundamental to achieve our goal
  
  3.Development 
  --------------
@@ -124,7 +115,6 @@ Using more arduino, we acquire knowledge that will be fundamental to achieve our
 ![Arduino](lights1.jpeg)
 ![Arduino](lights2.jpeg)
 Using more arduino, we acquire knowledge that will be fundamental to achieve our goal
-
 
 ```.sh 
 int butA = 13;
