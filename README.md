@@ -36,7 +36,8 @@ Contents
 ![Arduino](luz1.jpg)
 ![Arduino](luz2.jpg)
 ![Arduino](luz3.jpg)
-```
+
+```.sh
 void setup()
 {
   pinMode(13, OUTPUT);
@@ -64,7 +65,8 @@ void loop()
 
 # cabes system using Arduino to turn on the light 
 ![Arduino](ARD3.jpg)
-```
+
+```.sh
  int ledPin[] = {13,12,11,10,9,8};
 // an arry to define the pins
 
@@ -108,7 +110,8 @@ void displayBinary(byte num)
 # Using Arduino,coding and lights to build a segment display 
 ![Arduino](lights1.jpeg)
 ![Arduino](lights2.jpeg)
-```
+
+```.sh 
 int butA = 13;
 int butB = 12;
 int butC = 11;
@@ -170,7 +173,7 @@ void loop()
  --------------
  
  # First steps about Binary code ( binary to decimal conversion ) 
- ```
+ ```.sh 
  count base 8 binary    count base 4 binary       desimal 15 to Binary 
  
   n%8                    n%4                      num   A    B    C    D 
