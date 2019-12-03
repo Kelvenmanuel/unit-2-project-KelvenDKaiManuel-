@@ -36,13 +36,135 @@ Contents
 ![Arduino](luz1.jpg)
 ![Arduino](luz2.jpg)
 ![Arduino](luz3.jpg)
+```
+void setup()
+{
+  pinMode(13, OUTPUT);
+  pinMode(12, OUTPUT);
+  pinMode(11, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(13, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(13, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(12, HIGH);
+  delay(1000); // Wait for 500 millisecond(s)
+  digitalWrite(12, LOW);
+  delay(1000); // Wait for 500 millisecond(s)
+  digitalWrite(11, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(11, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+}
+```
+
 
 # cabes system using Arduino to turn on the light 
 ![Arduino](ARD3.jpg)
+```
+ int ledPin[] = {13,12,11,10,9,8};
+// an arry to define the pins
+
+void setup()
+{
+  for (int i = 0; i < 5; i++)
+  {
+    pinMode(ledPin[i], OUTPUT);
+  }
+}
+
+void loop()
+{
+  for (byte counter = 0; counter <= 32; counter++)
+  {
+    displayBinary(counter);
+    delay(2000);
+  }
+}
+
+void displayBinary(byte num)
+{
+  for (int i = 0; i < 5; i++)
+  {
+    if (bitRead(num, i)==1)
+    {
+      digitalWrite(ledPin[i], HIGH);
+    }
+    else
+    {
+      digitalWrite(ledPin[i], LOW);
+    }
+  }
+
+}
+```
+
+
+
 
 # Using Arduino,coding and lights to build a segment display 
 ![Arduino](lights1.jpeg)
 ![Arduino](lights2.jpeg)
+```
+int butA = 13;
+int butB = 12;
+int butC = 11;
+int out1 = 10;
+int out2 = 9;
+int out3 = 8;
+int out4 = 7;
+int out5 = 6;
+int out6 = 5;
+int out7 = 4;
+  
+void setup()
+{
+  pinMode(butA, INPUT);
+  pinMode(butB, INPUT);
+  pinMode(butC, INPUT);
+  pinMode(out1, OUTPUT);
+  pinMode(out2, OUTPUT);
+  pinMode(out3, OUTPUT);
+  pinMode(out4, OUTPUT);
+  pinMode(out5, OUTPUT);
+  pinMode(out6, OUTPUT);
+  pinMode(out7, OUTPUT);
+ 
+}
+
+void loop()
+{
+  bool A = digitalRead(butA);
+  bool B = digitalRead(butB);
+  bool C = digitalRead(butC);
+  
+  bool eq1 = B || (!A && !C) || (A && C);
+  digitalWrite(out1, eq1);
+  
+  bool eq2 = !A || (C && B) || (!B && !C);
+  digitalWrite(out2, eq2);
+  
+  bool eq3 = (!A && !B) || C || (A && !C);
+  digitalWrite(out3, eq3);
+  
+  bool eq4 = (!A && !C) || (!A && B) || (B && !C) || (A && !B && C);
+  digitalWrite(out4, eq4);
+  
+  bool eq5 = (!A && !C) || (!A && !B);
+  digitalWrite(out5, eq5);
+  
+  bool eq6 = (A && !B) || !C;
+  digitalWrite(out6, eq6);
+  
+  bool eq7 = (A && !C);
+  digitalWrite(out7, eq7);
+  
+}
+```
+
  
  3.Development 
  --------------
