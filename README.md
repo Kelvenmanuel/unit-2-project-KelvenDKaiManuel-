@@ -205,11 +205,11 @@ void loop()
                                                        bit  bit  bit  bit 
                                                         3    2    1    0 
 ```
+
 # The HEXADECIMAL base 
 this base is different from other, the numbers 10 to 15 are expressed using only digits, instead of using digits. 
 Eg: A=10 B=11 C=12 D=13 E=14 F=15 
 
- 
 
 # Boolean Operators, Logit gates and truth tables 
 ![Arduino](arduino123.jp.jpeg)
