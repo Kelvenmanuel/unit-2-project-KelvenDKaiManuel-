@@ -36,9 +36,8 @@ Communication between the Earth the moon and Mars using Arduino
  # 2.Desing
  ----------
 # Traffic lights system using Arduino 
-![Arduino](luz1.jpg)
-![Arduino](luz2.jpg)
-![Arduino](luz3.jpg)
+![Arduino](arduino1)
+
 Introduction of Arduino-using arduino to make a system of traffic lights help us to understand how Arduino works. 
 
 ```.sh
@@ -69,7 +68,7 @@ void loop()
 Arduino is an open-source electronics platform based on easy-to-use hardware and software. It's intended for anyone making interactive projects.
 
 # cabes system using Arduino to turn on the light 
-![Arduino](ARD3.jpg)
+![Arduino](arduino2)
 
 ```.sh
  int ledPin[] = {13,12,11,10,9,8};
@@ -113,8 +112,8 @@ void displayBinary(byte num)
  --------------
  
  # Using Arduino,coding and lights to build a segment display 
-![Arduino](lights1.jpeg)
-![Arduino](lights2.jpeg)
+![Arduino](arduino3)
+
 Using more arduino, we acquire knowledge that will be fundamental to achieve our goal
 
 ```.sh 
