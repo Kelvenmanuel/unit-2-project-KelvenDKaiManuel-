@@ -65,7 +65,8 @@ void loop()
   delay(1000); // Wait for 1000 millisecond(s)
 }
 ```
-
+# Arduino 
+Arduino is an open-source electronics platform based on easy-to-use hardware and software. It's intended for anyone making interactive projects.
 
 # cabes system using Arduino to turn on the light 
 ![Arduino](ARD3.jpg)
