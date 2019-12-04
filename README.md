@@ -36,7 +36,7 @@ Communication between the Earth the moon and Mars using Arduino
  # 2.Desing
  ----------
 # Traffic lights system using Arduino 
-![Arduino](arduino1.png)
+![Arduino](arduino123.png)
 
 Introduction of Arduino-using arduino to make a system of traffic lights help us to understand how Arduino works. 
 
@@ -112,7 +112,7 @@ void displayBinary(byte num)
  --------------
  
  # Using Arduino,coding and lights to build a segment display 
-![Arduino](arduino3.png)
+![Arduino](arduino456.png)
 
 Using more arduino, we acquire knowledge that will be fundamental to achieve our goal
 
