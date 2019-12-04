@@ -6,7 +6,7 @@
 
 Communication between the Earth the moon and Mars using Arduino 
 
-Contents
+# Contents
 ---------
   1. [planning](#Planning)
   2. [Design](#Design)
@@ -14,7 +14,7 @@ Contents
   4. [Evaluation](#Evaluation)
   
   
- 1.Planning 
+ # 1.Planning 
  -------------
  
  ### Definition of the Problem 
@@ -33,7 +33,7 @@ Contents
  
  
  
- 2.Desing
+ # 2.Desing
  ----------
 # Traffic lights system using Arduino 
 ![Arduino](luz1.jpg)
@@ -108,7 +108,7 @@ void displayBinary(byte num)
 }
 ```
  
- 3.Development 
+ # 3.Development 
  --------------
  
  # Using Arduino,coding and lights to build a segment display 
