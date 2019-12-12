@@ -225,6 +225,10 @@ A: Usability is the ease of use learnability of a human-made object.[1]
 • Feedback 
 
 ### English input System 
+--------------------------
+
+this tables show us Every input that we are goin to use to communicate with other station in Binary 
+
 ![Arduino](tabela.png)
 ![Arduino](tabela2.png)
 
