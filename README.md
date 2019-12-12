@@ -224,9 +224,10 @@ A: Usability is the ease of use learnability of a human-made object.[1]
 • Discoverability
 • Feedback 
 
+### English input System 
+![Arduino](tabela.png)
+![Arduino](tabela2.png)
 
-[3] Posner J, Mars R. " It is not you. Bad doors are everywhere". 2016.Retrieved on 25th nov 19.
-   
  4.Evaluation 
  --------------
  
