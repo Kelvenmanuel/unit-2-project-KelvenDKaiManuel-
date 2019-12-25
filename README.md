@@ -236,7 +236,7 @@ this tables show us Every input that we are goin to use to communicate with othe
 
 Using the Arduino and practical codes, we were able to create a system where we can write a message on the Arduino's LCD using only 2 buttons. Additionally, having within that system the option to delete, space and send the message "managing only 2 buttons".
 
-![Arduino](cs.png)
+![Arduino](cs.jpej)
   
  4.Evaluation 
  --------------
