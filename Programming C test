@@ -1,0 +1,169 @@
+1)))))))
+
+#include <stdio.h>
+
+
+int main(void) {
+  int number;
+  int count;
+  printf("Enter the number\n");
+
+  scanf ("%d", &number);
+
+  if (number % 2 == 0){
+    
+    printf("%d is and even number\n", number);
+
+  }else{
+     
+   printf("%d is and odd number\n", number);
+  }
+  return 0;
+}
+
+===================================================================================
+
+2))))))))))))
+
+#include <stdio.h>
+
+
+int main(void) {
+  int number;
+  
+  printf("Enter the number\n");
+
+  scanf ("%i", &number);
+
+  if (number < 0){
+    
+    printf("%i is an negative number\n",number);
+
+  }else{
+     
+   printf("%i is a positive number\n", number);
+  }
+  return 0;
+}
+
+==============================================================================
+3)))))))))))))
+
+#include <stdio.h>
+
+
+int main(void) {
+  int number;
+  
+  printf("Enter the number\n");
+
+  scanf ("%i", &number);
+
+  if (number < 21){
+    
+    printf("You are not eligible for casting your vote\n");
+
+  }else{
+     
+   printf("Congratulations! You are eligible for casting your vote\n");
+  }
+  return 0;
+}
+
+=================================================================================
+
+4)))))))))))))))))))))))))))))))
+
+#include <stdio.h>
+
+
+int main(void) {
+  int number1; 
+  int number2;
+  int number3;
+
+  printf("Enter three numbers\n");
+
+  scanf ("%i %i %i", &number1, &number2, &number3);
+
+  if (number1 > number2 && number1 > number3){
+    
+    printf("1st number = %i, 2nd number = %i, 3rd number = %i \n", number1, number2, number3);
+    printf("the 1st Number is the greatest among three ");
+
+  } else if (number2 > number1 && number2 > number3){
+
+    printf("1st number = %i, 2nd number = %i, 3rd number = %i \n", number1, number2, number3);
+    printf("the 2nd Number is the greatest among three ");
+
+    } else if (number3 > number1 && number3 > number2){
+
+      printf("1st number = %i, 2nd number = %i, 3rd number = %i \n", number1, number2, number3);
+      printf("the 3rd Number is the greatest among three ");
+
+     }
+    return 0;
+
+  }
+  
+  ===============================================================================================
+  
+  5)))))))))))))))))))))))))
+  
+  #include <stdio.h>
+
+int main(void) {
+  int number1;
+  int number2; 
+  int X;
+  int Y;
+
+  printf("Enter two numbers\n");
+
+  scanf ("%i  %i", &number1, &number2);
+
+  if ( number1 && number2){
+
+    printf("The coordinates point (%i,%i) lies in the first quadrant.", number1, number2); 
+    
+  }
+return 0;
+}
+
+=========================================================================================================
+
+6))))))))))))))))))
+
+#include <stdio.h>
+
+int main(void) {
+  int grade1;
+  int grade2;
+  int grade3;
+  int total3subjects;
+  int totalmathphy;
+
+    printf("Enter 1st Math marks, 2nd Phy marks and 3rd Chem numbers\n");
+
+   scanf ("%i %i %i",&grade1, &grade2, &grade3);
+
+   total3subjects = grade1 + grade2 + grade3;
+
+   totalmathphy = grade1 + grade2;
+
+  if (total3subjects >= 180){
+
+    printf("The candidate is eligible for admission"); 
+    
+  } else {
+     printf("The candidate is not eligible admission");
+    }   
+return 0;
+}
+
+========================================================================================================
+
+7))))))))))))))))))))
+
+
+
