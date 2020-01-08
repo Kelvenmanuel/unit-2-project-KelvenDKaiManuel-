@@ -113,22 +113,31 @@ int main(void) {
   #include <stdio.h>
 
 int main(void) {
-  int number1;
-  int number2; 
   int X;
   int Y;
 
-  printf("Enter two numbers\n");
-
-  scanf ("%i  %i", &number1, &number2);
-
-  if ( number1 && number2){
-
-    printf("The coordinates point (%i,%i) lies in the first quadrant.", number1, number2); 
-    
+  printf("Enter coordiantes (X,Y)\n");
+  scanf("%i %i", &X, &Y);
+ 
+  if (X >= 0 && Y >= 0){
+    printf("The coordinate point (%i, %i) lies in the First quadrant.\n", X, Y);
   }
-return 0;
+  if(X >= 0 && Y < 0){
+     printf("The coordinate point (%i, %i) lies in the Fourth quadrant.\n", X, Y); 
+  }
+
+  if(X < 0 && Y >= 0){
+  printf("The coordinate point (%i, %i) lies in the Second quadrant.\n", X, Y);
+  }
+
+  if(X < 0 && Y < 0){
+  printf("The coordinate point (%i, %i) lies in the Third quadrant.\n", X, Y);
+  }
+  return 0;
 }
+
+  
+
 
 =========================================================================================================
 
@@ -137,26 +146,24 @@ return 0;
 #include <stdio.h>
 
 int main(void) {
-  int grade1;
-  int grade2;
-  int grade3;
+  int math;
+  int phy;
+  int chem;
   int total3subjects;
   int totalmathphy;
 
-    printf("Enter 1st Math marks, 2nd Phy marks and 3rd Chem numbers\n");
+  printf("Enter 1st Phy marks, 2nd Chem marks and 3rd Math numbers\n");
 
-   scanf ("%i %i %i",&grade1, &grade2, &grade3);
+  scanf ("%i %i %i", &phy, &chem, &math);
+  total3subjects = math + phy + chem;
+  totalmathphy = math + phy;
 
-   total3subjects = grade1 + grade2 + grade3;
-
-   totalmathphy = grade1 + grade2;
-
-  if (total3subjects >= 180){
+  if (math >= 65 && phy >= 55 && chem >= 50 && total3subjects >= 180){
 
     printf("The candidate is eligible for admission"); 
     
   } else {
-     printf("The candidate is not eligible admission");
+     printf("The candidate is not eligible for admission");
     }   
 return 0;
 }
@@ -232,6 +239,35 @@ return 0;
 
 =========================================================================================================
 
-9 )))))))))))))))))))))))))))))))))))))
+9 )))))))))))))))
+
+#include <stdio.h>
+
+int main(void) {
+int angle1;
+int angle2;
+int angle3;
+int triangle;
+
+  printf("Enter three angles\n");
+  scanf("%i %i %i", &angle1, &angle2, &angle3);
+  triangle = angle1 + angle2 + angle3;
+
+  if (triangle >= 180 ){
+    printf("The triangle is valid\n");
+
+  } else {
+
+    printf("The triangle is not valid\n");
+    }
+
+  return 0;
+}
+
+================================================================================================
+ 
+ 10 ))))))))))))))))))
+ 
+ 
 
 
