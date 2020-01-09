@@ -291,15 +291,15 @@ int main(void) {
   
    if (unitConsumed > 0 && unitConsumed < 200) {
      Value =unitConsumed*1.20;
-    perUnit=12/10;
+    perUnit=1.20;
   }
   else if (unitConsumed >= 200 && unitConsumed < 400) {
     Value =unitConsumed*1.50;
-    perUnit=15/10;
+    perUnit=1.50;
   }
   else if (unitConsumed >= 400 && unitConsumed < 600) {
     Value=unitConsumed*1.80;
-    perUnit=18/10;
+    perUnit=1.80;
    }
    else if (unitConsumed >= 600) {
      Value = unitConsumed *2.00;
