@@ -145,7 +145,7 @@ int main(void) {
 
 #include <stdio.h>
 
-int main(void) {
+int main(void){
   int math;
   int phy;
   int chem;
@@ -155,16 +155,23 @@ int main(void) {
   printf("Enter 1st Phy marks, 2nd Chem marks and 3rd Math numbers\n");
 
   scanf ("%i %i %i", &phy, &chem, &math);
+
   total3subjects = math + phy + chem;
   totalmathphy = math + phy;
 
-  if (math >= 65 && phy >= 55 && chem >= 50 && total3subjects >= 180){
+  if (math >= 65 && phy >= 55 && chem >= 50){
 
-    printf("The candidate is eligible for admission"); 
+    printf("The candidate is eligible for admission?n"); 
     
+  } else if (total3subjects >= 180){
+    printf("The candidate is eligible for admission?n");
+  
+  } else if (totalmathphy >= 140){
+    printf("The candidate is eligible for admission?n");
+
   } else {
-     printf("The candidate is not eligible for admission");
-    }   
+    printf("The candidate is not eligible for admission?n");
+  }
 return 0;
 }
 
@@ -186,75 +193,26 @@ int main(void) {
 
     printf("Freezing weather\n"); 
     
-  } else if (  temperature == 10 )     {
-       printf("Very cold weather\n");
+  } else if (  temperature >= 0 && temperature <10 ){
+      printf("Very cold weather\n");
         
 
-    } else if ( temperature == 10 && temperature <20 ){
-         printf("Cold weather\n");
+  } else if ( temperature >= 10 && temperature <20 ){
+     printf("Cold weather\n");
 
-      } else if( temperature == 20 && temperature <30 ){
-         printf("Normal in temp\n");
+  } else if( temperature >= 20 && temperature <30 ){
+     printf("Normal in temp\n");
 
-        } else if( temperature == 30 && temperature <40){
-          printf("Its Hot\n");
+  } else if( temperature >= 30 && temperature <40){
+     printf("Its Hot\n");
 
-          } else if( temperature >= 40){
-            printf("Its Very Hot\n");
+  } else if( temperature >= 40){
+     printf("Its Very Hot\n");
 
-            }
-
-
-return 0;
-}
-
-
-
------------------------   // -----------------------------   // -----------------------
-
-
-#include <stdio.h>
-
-int main(void) {
-  
-  int temperature;
-  
-
-  printf("Enter the temperature\n");
-
-  scanf ("%i", &temperature);
-
-  if ( temperature < 0){
-
-  printf("Freezing weather\n"); 
-  }
-  for ( temperature = 0; temperature < 10; temperature++){
-  printf("Very Cold Weather\n");
-  }
-
-  for ( temperature = 10; temperature < 20; temperature++){
-  printf("Cold wheater\n");
-  }
-
-  
-  for ( temperature = 20; temperature < 30; temperature++){
-       
-  printf("Normal in Temp\n");
-  }
-  
-  for ( temperature = 30; temperature < 40; temperature++){
-  printf("Normal in Temp\n");
-  }
-
-  if( temperature >= 40){
-       printf("Its Very Hot\n");
   }
 
 return 0;
 }
-
-
-
 
 ==============================================================================================
 
@@ -319,24 +277,50 @@ int triangle;
  #include <stdio.h>
 
 int main(void) {
+  int customerID=0;
+  char name[100];
+  int unitConsumed=0;
+  float surcharge=0;
+  float perUnit=0;
+  float Amount=0;
+  float Value;
+
+  printf(" Enter your data : Customer ID, Name, Unit Consumed.\n");
+  scanf("%i %s %i", &customerID, name, &unitConsumed);
+
   
-  int number;
-  int name;
-  int unitConsumed;
+   if (unitConsumed > 0 && unitConsumed < 200) {
+     Value =unitConsumed*1.20;
+    perUnit=12/10;
+  }
+  else if (unitConsumed >= 200 && unitConsumed < 400) {
+    Value =unitConsumed*1.50;
+    perUnit=15/10;
+  }
+  else if (unitConsumed >= 400 && unitConsumed < 600) {
+    Value=unitConsumed*1.80;
+    perUnit=18/10;
+   }
+   else if (unitConsumed >= 600) {
+     Value = unitConsumed *2.00;
+     perUnit=2.00;
+   }
+  if ( Value > 400) {
+    surcharge= Value *15/100;
+    Value=Value*115/100;
 
-  printf("Enter the data, 1st number, 2nd name and unit Consumed\n");
-  scanf ("%i %i %i", &number, &name, &unitConsumed);
+  } else if (unitConsumed < 100) {
+    printf("Invalid data. Enter correct data\n");
+
+  }
   
-  
-  
+  Amount=Value-surcharge;
 
-   
-
-      
-
-
-return 0;
+  printf("Customer ID: %i\n", customerID);
+  printf("Customer Name: %s\n", name);
+  printf("Unit Consumed: %i\n", unitConsumed);
+  printf("Amount Charge: @R.s %.2f per unit: %.2f\n", perUnit,Amount);
+  printf("Surcharge: %.2f\n", surcharge);
+  printf("Net Amount Paid by the Customer: %.2f\n", Value);
+  return 0;
 }
- 
-
-
