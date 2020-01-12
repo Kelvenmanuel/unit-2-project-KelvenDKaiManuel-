@@ -1,0 +1,17 @@
+#include <stdio.h>
+// This variable is for the number that the user is going to write(input)
+int number;
+int num;
+// this variable is for the calculation of the cube of all inputs 
+unsigned long long fact=1;
+
+int main(void) {  
+  printf("Please Enter a number\n");
+  scanf("%i", &number);
+
+  for (num=1; num<=number; ++num){
+    fact *= number;
+  }
+  printf("The factorial of %i is: %llu", number, fact);
+  return 0;
+}
