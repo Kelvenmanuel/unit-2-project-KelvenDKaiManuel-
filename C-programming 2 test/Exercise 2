@@ -1,4 +1,4 @@
-// This program will find the cube of the number upton given n integer
+// This program will find the cube of the number upton given an integer
 #include <stdio.h>
 // This variable is for all the numbers that the user is going to write(input)
 int num1, num2, num3, num4, num5;
