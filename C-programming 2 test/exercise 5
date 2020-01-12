@@ -1,3 +1,4 @@
+
 //This program will display the sum of the series of n terms
 #include <stdio.h>
 //.1 defination of variables
@@ -5,7 +6,7 @@
 int number;
 int num;
 // this variable is for the sum of the series of n terms
-int sum;
+int sum=0;
 // this variable is for showing the series of numbers
 int series;
  
@@ -14,7 +15,7 @@ int main(void) {
   printf("Please Enter a number\n");
   scanf("%i", &num);
 
-   for (int i=0; i<10; i++){ 
+   for (int num=0; num<=number; num++){ 
 
   }
   //3. this will do the series of the n terms 
@@ -22,7 +23,7 @@ int main(void) {
      
   }
   //4. this will show the result of the sum and average
-   printf("The addition of the 10 number is: %i\n", sum);
-   printf("The Average is %.6f\n", average);
+   printf("%i\n", series);
+   printf("The sum is %i\n", sum);
 
 }
