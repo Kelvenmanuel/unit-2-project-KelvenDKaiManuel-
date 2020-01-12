@@ -1,29 +1,24 @@
-// This program will find the cube of the number upton given an integer
+// This program will display the cube of the numberupton an integer
 #include <stdio.h>
 // This variable is for all the numbers that the user is going to write(input)
-int num1, num2, num3, num4, num5;
+int number[5];
+int num;
 // this variable is for the calculation of the cube of all inputs 
-int cube1, cube2, cube3, cube4, cube5;
+int cube;
 
 int main(void) {
-  printf("Please Enter 5 numbers\n");
-  scanf("%i %i %i %i %i", &num1, &num2, &num3, &num4, &num5);
-
-  cube1 = num1*num1*num1;
-  cube2 = num2*num2*num2;
-  cube3 = num3*num3*num3;
-  cube4 = num4*num4*num4;
-  cube5 = num5*num5*num5;
-
-  printf("Number is: %i and the cube of the %i is: %i\n",num1, num1, cube1 );
-
-  printf("Number is: %i and the cube of the %i is: %i\n",num2, num2, cube2 );
-
-  printf("Number is: %i and the cube of the %i is: %i\n",num3, num3, cube3 );
-
-  printf("Number is: %i and the cube of the %i is: %i\n",num4, num4, cube4 );
-
-  printf("Number is: %i and the cube of the %i is: %i\n",num5, num5, cube5 );
+   
+  printf("Please Enter numbers\n");
+  for (int i=0; i<5; i++){
+    scanf("%i", &num);
+    number[i]=num;
+    
+  }
+  for (int i=0; i<5; i++){
   
+  cube = number[i]*number[i]*number[i];  
+  printf("Number is: %i and the cube of the %i is: %i\n",number[i], number[i], cube );
+
+  }
   return 0;
 }
