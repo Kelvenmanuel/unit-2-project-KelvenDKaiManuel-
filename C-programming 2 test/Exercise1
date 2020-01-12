@@ -1,24 +1,28 @@
-// This program will read 10 numbers and find their sum and their average
+//This program will read 10 numbers and find their sum and average
 #include <stdio.h>
-// This variable is for all the numbers that the user is going to write(input)
-int number[5];
+//.1 defination of variables
+//this variable is for all the 10 numbers that the user is going to write(input)
+int number[10];
 int num;
-// this variable is for the calculation of the cube of all inputs 
-int cube;
+// this variable is for the sum of all the 10 number that the user will write 
+int sum;
+// this variable is for the calculation of the  average of all the 10 numbers 
+float average;
 
 int main(void) {
-   
-  printf("Please Enter numbers\n");
-  for (int i=0; i<5; i++){
+  //2. the user will write the numbers (input)
+  printf("Please Enter 10 number\n");
+  for (int i=0; i<10; i++){
     scanf("%i", &num);
     number[i]=num;
-    
   }
-  for (int i=0; i<5; i++){
-  
-  cube = number[i]*number[i]*number[i];  
-  printf("Number is: %i and the cube of the %i is: %i\n",number[i], number[i], cube );
+  //3. this will do the sum and average of the number that the user input
+  for (int i=0; i<10; i++){
+     sum += number[i];
+     average = sum/10;
+  }
+  //4. this will show the result of the sum and average
+   printf("The addition of the 10 number is: %i\n", sum);
+   printf("The Average is %.6f\n", average);
 
-  }
-  return 0;
 }
