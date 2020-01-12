@@ -1,0 +1,28 @@
+#include <stdio.h>
+// This variable is for all the numbers that the user is going to write(input)
+int num1, num2, num3, num4, num5;
+// this variable is for the calculation of the cube of all inputs 
+int cube1, cube2, cube3, cube4, cube5;
+
+int main(void) {
+  printf("Please Enter 5 numbers\n");
+  scanf("%i %i %i %i %i", &num1, &num2, &num3, &num4, &num5);
+
+  cube1 = num1*num1*num1;
+  cube2 = num2*num2*num2;
+  cube3 = num3*num3*num3;
+  cube4 = num4*num4*num4;
+  cube5 = num5*num5*num5;
+
+  printf("Number is: %i and the cube of the %i is: %i\n",num1, num1, cube1 );
+
+  printf("Number is: %i and the cube of the %i is: %i\n",num2, num2, cube2 );
+
+  printf("Number is: %i and the cube of the %i is: %i\n",num3, num3, cube3 );
+
+  printf("Number is: %i and the cube of the %i is: %i\n",num4, num4, cube4 );
+
+  printf("Number is: %i and the cube of the %i is: %i\n",num5, num5, cube5 );
+  
+  return 0;
+}
