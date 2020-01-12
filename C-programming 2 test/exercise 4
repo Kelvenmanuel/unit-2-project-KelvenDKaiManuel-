@@ -5,7 +5,7 @@
 int number;
 int num;
 // this variable is for the calculation of the sum of the series of the input
-float sumofSeries;
+float sumofSeries=0.0;
 // this variable is for the n trms of harmonic
 int harmonic;
 
@@ -16,15 +16,18 @@ int main(void) {
   
  for (int num=1; num<=number;num++){
    //3. calculation of the harmonic series 
-    harmonic = number + 1/number;
+    harmonic+=1/(float)num;
  }
 
  for (int num=1; num<=number;num++){
    //4. calculation of the sum of the series
-    sumofSeries = number + 1/num;
+    sumofSeries += 1/(float)num;
  }
-  //5. this will show the result of the harmonic series and their sum
-  printf("%i\n", harmonic);
-  printf("Sum of Series upto %i terms is: %.6f\n",number, sumofSeries);
+ 
+ //5. this will show the result of the harmonic series and their sum
+ printf("1/%i\n", harmonic);
+ printf("Sum of Series upto %i terms is: %.6f\n",number, sumofSeries);
+
+  
   return 0;
 }
