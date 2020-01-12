@@ -1,7 +1,8 @@
 // This program will read 10 numbers from keyboard and find their sum and average 
 #include <stdio.h>
-//these variables are for all the numbers or inputs
-int num1, num2, num3, num4, num5, num6, num7, num8, num9, num10;
+//this variables is for all the numbers that the user is going to write(input)
+int number[10];
+int num;
 //this variable is for the addition of all the numbers 
 int sum;
 // this variable is for the calculation of the avarege of all numbers
@@ -9,12 +10,17 @@ float average;
 
 
 int main(void) {
-  printf("Please Enter 10 number\n");
-  scanf("%i %i %i %i %i %i %i %i %i %i", &num1, &num2, &num3, &num4, &num5, &num6, &num7, &num8, &num9, &num10);
+   printf("Please Enter 10 number\n");
+  for (int i=0; i<10; i++){
+ 
+  scanf("%i",&num);
+  number[i]=num;
 
-  sum = num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8 + num9 + num10;
-
+  }
+  for (int i=0; i<10; i++){
+  sum += number[i];
   average = sum/10;
+  }
 
   printf("The sum of 10 numbers is %i\n",sum );
   printf("The average is %.6f\n", average);
