@@ -1,6 +1,7 @@
 // This program will calculate the factorial of a given number.
 
 #include <stdio.h>
+//1. Definition of the variable
 // This variable is for the number that the user is going to write(input)
 int number;
 int num;
@@ -8,13 +9,15 @@ int num;
 int fact=1;
 
 int main(void) {  
+//2. the user is going to write the number
   printf("Please Enter a number\n");
   scanf("%i", &number);
 
  for (num=1; num<=number; ++num){
+      //3. the calculation of the factorial of the number that the user wrote
       fact *= num;
     }
-  
+  //4. this will show the factorial of the number that the user wrote
   printf("The factorial of %i is: %i", number, fact);
   return 0;
 }
