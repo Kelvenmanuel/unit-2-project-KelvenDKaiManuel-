@@ -1,5 +1,6 @@
 // This program will display the cube of the numberupton an integer
 #include <stdio.h>
+//1. Definition of the variables
 // This variable is for all the numbers that the user is going to write(input)
 int number[5];
 int num;
@@ -7,16 +8,18 @@ int num;
 int cube;
 
 int main(void) {
-   
+   //2. The user is going to write the numbers (input)
   printf("Please Enter numbers\n");
   for (int i=0; i<5; i++){
     scanf("%i", &num);
     number[i]=num;
     
   }
+  //3. calculation of the cube of every number that the user is going to write
   for (int i=0; i<5; i++){
   
   cube = number[i]*number[i]*number[i];  
+  //4. this will show the result of the calculation
   printf("Number is: %i and the cube of the %i is: %i\n",number[i], number[i], cube );
 
   }
