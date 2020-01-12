@@ -1,0 +1,28 @@
+//This program will display the sum of the series of n terms
+#include <stdio.h>
+//.1 defination of variables
+//this variable is for the number that the user is going to write
+int number;
+int num;
+// this variable is for the sum of the series of n terms
+int sum;
+// this variable is for showing the series of numbers
+int series;
+ 
+int main(void) {
+  //2. the user will write the numbers (input)
+  printf("Please Enter a number\n");
+  scanf("%i", &num);
+
+   for (int i=0; i<10; i++){ 
+
+  }
+  //3. this will do the series of the n terms 
+  for (int i=0; i<10; i++){
+     
+  }
+  //4. this will show the result of the sum and average
+   printf("The addition of the 10 number is: %i\n", sum);
+   printf("The Average is %.6f\n", average);
+
+}
