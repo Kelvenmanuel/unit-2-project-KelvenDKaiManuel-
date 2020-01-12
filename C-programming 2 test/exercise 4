@@ -1,0 +1,30 @@
+// this program will display the n terms harmonic series and their sum
+#include <stdio.h>
+//1. definition of the variable
+// This variable is for the number that the user is going to write(input)
+int number;
+int num;
+// this variable is for the calculation of the sum of the series of the input
+float sumofSeries;
+// this variable is for the n trms of harmonic
+int harmonic;
+
+int main(void) {  
+  //2. the user is going to write the n term or number(input)
+  printf("Please Enter a number\n");
+  scanf("%i", &number);
+  
+ for (int num=1; num<=number;num++){
+   //3. calculation of the harmonic series 
+    harmonic = number + 1/number;
+ }
+
+ for (int num=1; num<=number;num++){
+   //4. calculation of the sum of the series
+    sumofSeries = number + 1/num;
+ }
+  //5. this will show the result of the harmonic series and their sum
+  printf("%i\n", harmonic);
+  printf("Sum of Series upto %i terms is: %.6f\n",number, sumofSeries);
+  return 0;
+}
