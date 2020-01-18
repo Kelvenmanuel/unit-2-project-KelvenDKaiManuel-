@@ -229,6 +229,7 @@ A: Usability is the ease of use learnability of a human-made object.[1]
 
 # Morse code
 Understant this communication will be essancial to achieve our main goal in this project.
+
 ![Arduino](morsecode .png)
 
 
@@ -243,6 +244,7 @@ this tables show us Every input that we are goin to use to communicate with othe
 Using the Arduino and practical codes, we were able to create a system where we can write a message on the Arduino's LCD using only two buttons. Additionally, having within that system the option to delete, space and send the message "managing only 2 buttons".
 
 ![Arduino](cs.jpeg)
+
 This is the code that allows us to write a message in arduino
 ```.sh 
 // include the library code:
