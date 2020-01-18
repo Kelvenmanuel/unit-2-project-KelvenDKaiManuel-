@@ -227,6 +227,12 @@ A: Usability is the ease of use learnability of a human-made object.[1]
 # English input System 
 --------------------------
 
+# Morse code
+Understant this communication will be essancial to achieve our main goal in this project.
+![Arduino](morsecode .png)
+
+
+
 this tables show us Every input that we are goin to use to communicate with other station in Binary 
 
 ![Arduino](tabela123.png)
@@ -237,6 +243,96 @@ this tables show us Every input that we are goin to use to communicate with othe
 Using the Arduino and practical codes, we were able to create a system where we can write a message on the Arduino's LCD using only two buttons. Additionally, having within that system the option to delete, space and send the message "managing only 2 buttons".
 
 ![Arduino](cs.jpeg)
+This is the code that allows us to write a message in arduino
+```.sh 
+// include the library code:
+#include <LiquidCrystal.h>
+int index = 0; 
+// add all the letters and digits to the keyboard
+String keyboard[]={"A", "B","C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"};
+String text = "";
+int numOptions = 3;
+
+char letters;
+
+string code;
+char try[6]={"0", "0","0", "0", "0", "0"};
+Strind[] = lenght;
+
+
+
+// initialize the library with the numbers of the interface pins
+LiquidCrystal lcd(12, 11, 5, 4, 9, 8);
+
+void setup() {
+  // set up the LCD's number of columns and rows:
+  lcd.begin(16,2);
+  // Print a message to the LCD.
+  attachInterrupt(0, changeLetter, RISING);//button A in port 2
+  attachInterrupt(1, selected, RISING);//button B in port 3
+  
+ 
+  
+}
+
+void loop() {
+  // set the cursor to column 0, line 1
+  // (note: line 1 is the second row, since counting begins with 0):
+  lcd.clear();
+  lcd.setCursor(0, 0);
+  lcd.print(keyboard[index]);
+  lcd.setCursor(0, 1);
+  lcd.print(text);
+  delay(100);
+}
+
+//This function changes the letter in the keyboard
+void changeLetter(){
+  static unsigned long last_interrupt_time = 0;
+  unsigned long interrupt_time = millis();
+  if (interrupt_time - last_interrupt_time > 200)
+  {
+  
+    last_interrupt_time = interrupt_time;// If interrupts come faster than 200ms, assum
+    index++;
+      //check for the max row number
+    if(index==numOptions){
+      index=0; //loop back to first row
+    } 
+ }
+}
+
+//this function adds the letter to the text or send the msg
+void selected(){
+  static unsigned long last_interrupt_time = 0;
+  unsigned long interrupt_time = millis();
+  if (interrupt_time - last_interrupt_time > 200)
+  {
+  
+    last_interrupt_time = interrupt_time;// If interrupts come faster than 200ms, assum
+    
+    String key = keyboard[index];
+    if (key == "DEL")
+    {
+      int len = text.length();
+      text.remove(len-1);
+    }
+    else if(key == "SENT")
+    {
+      convertBin();
+      text="";
+    }
+    else if(key == "SPACE")
+    {
+	   text += " ";
+    }else{
+      text += key;
+    }
+    index = 0; //restart the index
+  }
+  
+}
+```
   
  4.Evaluation 
  --------------
