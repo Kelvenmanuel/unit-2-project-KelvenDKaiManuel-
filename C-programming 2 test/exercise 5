@@ -4,7 +4,7 @@
 //.1 defination of variables
 //this variable is for the number that the user is going to write
 int number;
-int num;
+int num=1;
 // this variable is for the sum of the series of n terms
 int sum=0;
 // this variable is for showing the series of numbers
@@ -13,17 +13,15 @@ int series;
 int main(void) {
   //2. the user will write the numbers (input)
   printf("Please Enter a number\n");
-  scanf("%i", &num);
-
-   for (int num=0; num<=number; num++){ 
-
+  scanf("%i", &number);
+   //3. this will do the series of the n terms and the sum;
+   for (int series=0; series<=number; series++){ 
+   sum=sum+num;
+   num=(num*10)+1;
+   
   }
-  //3. this will do the series of the n terms 
-  for (int i=0; i<10; i++){
-     
-  }
-  //4. this will show the result of the sum and average
-   printf("%i\n", series);
+  //4. this will show the result of the sum;
+   
    printf("The sum is %i\n", sum);
-
+  return 0;
 }
