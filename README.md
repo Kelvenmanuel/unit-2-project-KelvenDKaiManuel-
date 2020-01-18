@@ -21,6 +21,7 @@ Communication between the Earth the moon and Mars using Arduino
  In 2050, The company Explore wants to explore other planets, on the other hand, the communication nowadays still uncertain. they have 3 station one in the Earth that can only communicate using Morse code, the second station in the Moon can only communicate in Binary and the final station in Mars that they need us to provide a channel of communication. 
  
  ### Proposed Solution 
+ Create a program using Arduino that will allow the user to communicate between the station, in other words,  efficient coding that will allow the user to use Binary, Morse and English as a way of communication, being able to recieve and send messages.
  
  ### success criteria
  
@@ -200,7 +201,17 @@ void loop()
                                                         3    2    1    0 
 ```
 # conversion of base 2 to 10
+1. Write down the binary number.
+2. Write down the position of the individual numbers (1’s and 0’s) starting from the furthermost right. The first digit should have a position zero.
+3. Express the positions in terms of powers of two. (eg. 8^0 for position zero)
+4. Multiply the individual numbers by the powers of two
+5. Add the products.
 # conversion of base 10 to other bases 
+1. Write down the number.
+2. Write down the position of the individual numbers starting from the furthermost right. The first digit should have a position zero.
+3. Express the positions in terms of powers of the base. (eg. 8^0 for position zero)
+4. Multiply the individual numbers by the powers of the base.
+5. Add the products.
 
 # The HEXADECIMAL base 
 this base is different from other, the numbers 10 to 15 are expressed using only digits, instead of using digits. 
