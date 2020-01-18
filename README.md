@@ -235,14 +235,14 @@ A: Usability is the ease of use learnability of a human-made object.[1]
 • Discoverability
 • Feedback 
 
-# English input System 
---------------------------
-
 # Morse code
 Understant this communication will be essancial to achieve our main goal in this project.
 
 ![Arduino](morse.png)
 
+
+# English input System 
+--------------------------
 
 this tables show us Every input that we are goin to use to communicate with other station in Binary 
 
