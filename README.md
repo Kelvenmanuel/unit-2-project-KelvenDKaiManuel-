@@ -36,6 +36,10 @@ Communication between the Earth the moon and Mars using Arduino
  
  # 2.Desing
  ----------
+ 
+# First sketch of system
+![Arduino](donada)
+
 # Traffic lights system using Arduino 
 ![Arduino](arduino123.png)
 
