@@ -38,10 +38,14 @@ Communication between the Earth the moon and Mars using Arduino
  ----------
  
 # First sketch of system
+The is the sytem diagram of the program where we put the inputs ( buttons ), the program, and the output (LCD);
+In the LCD we are expected to see, and write the message using the pushbuttons 
 ![Arduino](donada.png)
+fig.1
 
 # Traffic lights system using Arduino 
 ![Arduino](arduino123.png)
+fig.2
 
 Introduction of Arduino-using arduino to make a system of traffic lights help us to understand how Arduino works. 
 
@@ -74,6 +78,7 @@ Arduino is an open-source electronics platform based on easy-to-use hardware and
 
 # cabes system using Arduino to turn on the light 
 ![Arduino](arduino2.png)
+fig.3
 
 ```.sh
  int ledPin[] = {13,12,11,10,9,8};
@@ -118,6 +123,7 @@ void displayBinary(byte num)
  
  # Using Arduino,coding and lights to build a segment display 
 ![Arduino](arduino456.png)
+fig.4
 
 Using more arduino, we acquire knowledge that will be fundamental to achieve our goal
 
@@ -224,6 +230,7 @@ Eg: A=10 B=11 C=12 D=13 E=14 F=15
 
 # Boolean Operators, Logit gates and truth tables 
 ![Arduino](arduino123.jp.jpeg)
+fig.5
  
 we can see the essensial Boolean operations ( logic gates ) and their match in basic arithmetic operations. [right side ]
 
@@ -243,6 +250,7 @@ A: Usability is the ease of use learnability of a human-made object.[1]
 Understant this communication will be essancial to achieve our main goal in this project.
 
 ![Arduino](morse.png)
+fig.6
 
 
 # English input System 
@@ -252,12 +260,14 @@ this tables show us Every input that we are goin to use to communicate with othe
 
 ![Arduino](tabela123.png)
 ![Arduino](tabela23.png)
+fig.7
 
 # Arduino && English input system 
 
 Using the Arduino and practical codes, we were able to create a system where we can write a message on the Arduino's LCD using only two buttons. Additionally, having within that system the option to delete, space and send the message "managing only 2 buttons".
 
 ![Arduino](cs.jpeg)
+fig.8
 
 ### This is the code that allows us to write a message in arduino
 ```.sh 
