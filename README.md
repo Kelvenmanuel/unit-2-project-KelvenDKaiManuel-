@@ -45,7 +45,7 @@ we decide to use Arduino because is a great tool for developing interactive obje
 This the sytem diagram of the program where we put the inputs ( buttons ), the program, and the output (LCD);
 In the LCD we are expected to see, and write the message using the pushbuttons. See in fig1
 ![Arduino](donada.png)
-# fig.1
+### fig.1
 
 # Traffic lights system using Arduino 
 ![Arduino](arduino123.png)
