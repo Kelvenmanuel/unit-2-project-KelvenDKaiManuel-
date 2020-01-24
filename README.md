@@ -133,7 +133,7 @@ English to Morse (vice versa)
 English to Binary (vice versa)
 In this flowcharts we can see diagrams that depicts the process to create the programs, with this the user can visualize an idea or process we went through, in this flow chart there is a summary off all the codes that we use to create all the programs. These graphics should explain the manner clearly and even give the essence of a process flow in a single look.
 ### English input 
-![Arduino](English Input System.png)
+![Arduino](EnglishInputSystem.png)
 ### English to Morse
 ![Arduino](EnglishtoMorse.png)
 ### Morse to English
