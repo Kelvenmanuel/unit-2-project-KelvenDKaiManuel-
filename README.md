@@ -1,4 +1,4 @@
-# •Communication• Morse code and Binary code UNIT2 Project
+# •••Communication••• Morse code and Binary code UNIT2 Project
 -------------------------------------------------------------
 # KelvenManuel 
 
@@ -18,17 +18,20 @@ Communication between the Earth the moon and Mars using Arduino
  -------------
  
  ### Definition of the Problem 
- In 2050, The company Explore wants to explore other planets, on the other hand, the communication nowadays still uncertain. they have 3 station one in the Earth that can only communicate using Morse code, the second station in the Moon can only communicate in Binary and the final station in Mars that they need us to provide a channel of communication. 
+ In 2050, The company "Explore", a big company of communications, wants to explore other planets and develop communication between them.therefore create spatial communication and develop their communication skills to another level. On the other hand, the communication nowadays still uncertain. they built 3 station, one in the Earth that can only communicate using Morse code, the second station in the Moon that can only communicate in Binary and the final station in Mars that they need us to provide a channel of communication. 
  
  ### Proposed Solution 
- Create a program using Arduino that will allow the user to communicate between the station, in other words,  efficient coding that will allow the user to use Binary, Morse and English as a way of communication, being able to recieve and send messages.
+ Create a program using Arduino that will allow the user to communicate between the station, in other words,  efficient coding that will allow the user to use Binary, Morse and English as a way of communication between stations, being able to recieve and send messages.
+ 
+Why Arduino?
+we decide to use Arduino because is a great tool for developing interactive objects, taking inputs from a variety of switches or sensors and controlling a variety of lights. Arduino offer the ability of using lights as a way of communication, were with efficient coding we can create aprogram that can (using lights) send information in english but in Morse and binary communication.
  
  ### success criteria
  
  • Clear understanding about Arduino, Binary codes, and morse codes
  • Communication between the 2 station Earth and Mars using Morse code; 
  • Communication between Mars and the Moon uses Binary code;
- • find a communication system that allow stations to communicate completely using English 
+ • find a communication system that allow stations to communicate completely using English but in morse or binary communication
  • Keyboard input on each station is limited to 2push buttons. 
  • 100W lights are buzzers are available 
  
