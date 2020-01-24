@@ -2223,6 +2223,9 @@ void convertbin(){
  --------------
  
  Evaluation of the Project:
+ The communication is allow between every station
+ we can communicate in morse binary and english 
+###  what we can do to improve this program?
  The codes should be more "DRY", there are many repetition; 
  The test plan could be completed with better results even though the program is working;
  the diescription of every step could be clearly;
