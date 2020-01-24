@@ -146,6 +146,9 @@ In this flowcharts we can see diagrams that depicts the process to create the pr
 ### English to Binary 
 ![Arduino](EnglishtoBinary1.png)
 ![Arduino](EnglishtoBinary2.png)
+
+### TEST PLAN
+![Arduino](teste.png)
 ----------------------------------------------------------------------------------------------
 
 
@@ -157,7 +160,7 @@ In this flowcharts we can see diagrams that depicts the process to create the pr
  We still improving our abilities of Arduino coding and Arduino building system, this time we make a segment display that allow us to represent Numbers using lights so if we wnat a number a certain number of lights should be on and the rest of.(See in the fig4 following by the code)
  
 ![Arduino](arduino456.png)
-fig.4
+### fig.4
 
 
 
@@ -264,7 +267,7 @@ Eg: A=10 B=11 C=12 D=13 E=14 F=15
 
 # Boolean Operators, Logit gates and truth tables 
 ![Arduino](arduino123.jp.jpeg)
-fig.5
+### fig.5
  
 As we can see in the fig5 the essensial Boolean operations ( logic gates ) and their match in basic arithmetic operations. [right side ]
 Addictionaly we can see the truth tables for the basic Boolean operation( OR AND NOT XOR ) [left side ]
@@ -297,7 +300,7 @@ Other definition is Morse code is a method used in telecommunication to encode t
 Understant this communication will be essancial to achieve our main goal in this project. IN the fig6 we can see the international morse code that we are going to use. Therefore, create a program that can send and read messages in morse code. 
 
 ![Arduino](morse.png)
-fig.6
+### fig.6
 
 
 # English input System 
@@ -307,16 +310,18 @@ this tables show us Every input that we are goin to use to communicate with othe
 
 ![Arduino](tabela123.png)
 ![Arduino](tabela23.png)
-fig.7
+### fig.7
 
 # Arduino && English input system 
 
 Using the Arduino and practical codes, we were able to create a system where we can write a message on the Arduino's LCD using only two buttons. Additionally, having within that system the option to delete, space and send the message "managing only 2 buttons".
 
 ![Arduino](cs.jpeg)
-fig.8
+### fig.8
 
-### This is the code that allows us to write a message in arduino
+### English input system
+This is the cide that we use to write a message using Arduino, the message will be show in the Lcd that would be connected with the Arduino. This is the first code that we use to complete the project and have basic English communication  
+
 ```.sh 
 // include the library code:
 #include <LiquidCrystal.h>
@@ -408,8 +413,9 @@ void selected(){
 ```
 -------------------------------------------------------------------------------------
 
-### This is the code that allow the comunication using the Arduino English to Morse 
-```
+### English to Morse
+This is the code that allow the comunication using the Arduino English to Morse, with this code you can write a message in english then the arduino will read it and translate to morse using the lights. This is one of the essential codes to complete the project and allow the communication.  
+```.sh
 // This program serves as an input method for the English language, using only 2 buttons. 
 // When button A is pressed, the selection in focus is changed, through a rotation in a list. 
 // If button B is pressed, the character or action is selected, and catenated to the final word. 
@@ -760,7 +766,9 @@ void dash(){
 
 ```
 ---------------------------------------------------------------------
-### this is the code that we use to communicate Morse to English 
+### Morse to English 
+this is the code that we use to translate morse code in English communication this will allow one of the station (Moon) to receive morse communication and translate the same in english without too much effort, The moon will recieve communication in Morse and the program will tranlate it in English.
+
 ```.sh
 // include the library code:
 #include <LiquidCrystal.h>
@@ -1023,7 +1031,8 @@ void send()
 
 ```
 -------------------------------------------------------------------------
-### this is the code that we use to communicate in Arduino Binary to English 
+### Binary to English 
+this is the code that we use to communicate in Arduino Binary to English. With this one of the station (Moon) will recieve a message in binary and the program will tranlate it in english making the communication easy and possible.
 ```.sh
 Binary to English code - Alex
 
@@ -1187,7 +1196,11 @@ void storeChar(String character) {
  
 ```
 -------------------------------------------------------------------
-### this is the code that we use to communicate in Arduino English to Binary
+### English to Binary 
+this is the code that we use to communicate in Arduino English to Binary. Whith this code the Mars and Moon stations can write in english and then the program will translate in binary and send a message using the lights.This code is the last code that will allow the communication. Therefore, the project will be complete with success result.
+This image is a example of what we can do using this programs.(fig8)
+![Arduino](nada.png)
+### fig8
 ```.sh
 #include <LiquidCrystal.h>
 int index = 0; 
