@@ -9,7 +9,7 @@ Communication between the Earth the moon and Mars using Arduino
 
 # Contents
 ---------
-  1. [planning](#Planning)
+  1. [Planning](#Planning)
   2. [Design](#Design)
   3. [Development](#Development)
   4. [Evaluation](#Evaluation)
@@ -42,10 +42,10 @@ we decide to use Arduino because is a great tool for developing interactive obje
  ----------
  
 # First sketch of system
-The is the sytem diagram of the program where we put the inputs ( buttons ), the program, and the output (LCD);
-In the LCD we are expected to see, and write the message using the pushbuttons 
+This the sytem diagram of the program where we put the inputs ( buttons ), the program, and the output (LCD);
+In the LCD we are expected to see, and write the message using the pushbuttons. See in fig1
 ![Arduino](donada.png)
-fig.1
+# fig.1
 
 # Traffic lights system using Arduino 
 ![Arduino](arduino123.png)
