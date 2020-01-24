@@ -32,6 +32,7 @@ we decide to use Arduino because is a great tool for developing interactive obje
  • Clear understanding about Arduino, Binary codes, and morse codes
  • Communication between the 2 station Earth and Mars using Morse code; 
  • Communication between Mars and the Moon uses Binary code;
+ • Data Encoding;
  • find a communication system that allow stations to communicate completely using English but in morse or binary communication
  • Keyboard input on each station is limited to 2push buttons. 
  • 100W lights are buzzers are available 
@@ -81,9 +82,11 @@ void loop()
 # Arduino 
 Arduino is an open-source electronics platform based on easy-to-use hardware and software. It's intended for anyone making interactive projects.
 
-# cabes system using Arduino to turn on the light 
+# cabes system using Arduino to make a binary count
+
 ![Arduino](arduino2.png)
-fig.3
+Hving the basic knowledge about how to build a system with cables and lights using the Arduino, and knowing how to turn ON and OFF
+# fig.3
 
 ```.sh
  int ledPin[] = {13,12,11,10,9,8};
@@ -122,6 +125,9 @@ void displayBinary(byte num)
 
 }
 ```
+
+# FLOW CHARTS 
+![Arduino](English to Morse.png)
  
  # 3.Development 
  --------------
