@@ -86,7 +86,7 @@ Arduino is an open-source electronics platform based on easy-to-use hardware and
 
 ![Arduino](arduino2.png)
 Hving the basic knowledge about how to build a system with cables and lights using the Arduino, and knowing how to turn ON and OFF
-# fig.3
+### fig.3
 
 ```.sh
  int ledPin[] = {13,12,11,10,9,8};
@@ -127,7 +127,24 @@ void displayBinary(byte num)
 ```
 
 # FLOW CHARTS 
-![Arduino](English to Morse.png)
+in this section there are all flowchart of all the programs
+English input
+English to Morse (vice versa)
+English to Binary (vice versa)
+In this flowcharts we can see diagrams that depicts the process to create the programs, with this the user can visualize an idea or process we went through, in this flow chart there is a summary off all the codes that we use to create all the programs. These graphics should explain the manner clearly and even give the essence of a process flow in a single look.
+### English input 
+![Arduino](English Input System.png)
+### Morse to English
+![Arduino](EnglishtoMorse.png)
+![Arduino](Morse to English.png)
+### Binary to English
+![Arduino](BinarytoEnglish.png)
+### English to Binary 
+![Arduino](EnglishtoBinary1.png)
+![Arduino](EnglishtoBinary2.png)
+
+
+
  
  # 3.Development 
  --------------
