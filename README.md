@@ -49,9 +49,10 @@ In the LCD we are expected to see, and write the message using the pushbuttons. 
 
 # Traffic lights system using Arduino 
 ![Arduino](arduino123.png)
-fig.2
+### fig.2
 
-Introduction of Arduino-using arduino to make a system of traffic lights help us to understand how Arduino works. 
+"Introduction of Arduino"
+As we see in fig2  we build a basic arduino system, with the board connected with the Arduino Uno using cables, the lights in the board and connected with the board as well. Having the system build and a correct coding we can use the lights this will allow us to turn them ON or OFF according the way that we want. We use Arduino to make a system of traffic lights this that help us to understand how Arduino works. Additionally understand basic coding of the lights, how to turn OFF and ON, this will be essention to achieve our goals in the way that the lights will be our way of communication between stations. this is a prove off our ability to build system and use the lights. Moreover we have the code that we use to make the traffic lights system.( See under this paragraph )
 
 ```.sh
 void setup()
